@@ -1,0 +1,38 @@
+body
+{
+    background: #BA3B46;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #61C9A8;
+}
+
+.wrapper
+{
+    margin-top: 15%;
+    width: 50%;
+}
+hr
+{
+    border: 5px solid #61C9A8;
+    margin-bottom: 10%;
+}
+
+input[type="button"]
+{
+    background: #BA3B46;
+    border: 2px solid #61C9A8;
+    padding: 2%;
+    border-radius: 12px;
+    color: #61C9A8;
+    transition-duration: 0.3s;
+}
+
+input[type="button"]:hover
+{
+    background: #61C9A8;
+    color: #BA3B46;
+}
+
+input[type="button"]:active
+{
+    background: white;
+}
